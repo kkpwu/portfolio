@@ -1,117 +1,42 @@
 <!DOCTYPE html>
 <html lang="eng-ca">
+
   <head>
-    <meta charset="utc-8">
-    <title>Yoko's Kitchen</title>
+    <meta charset="UTF-8">
+    <title>Karen's Personal Website</title>
+    <link href="https://fonts.googleapis.com/css?family=IM Fell French Canon|Mulish|Oswald" rel="stylesheet">
     <style>
-      #header,
-      .courses,
-      #footer,
-      #sidebar,
-      #nav,
-      .article,
-      figure,
-      figcaption {
-        display: block;
-      }
-
       body {
-        color: #666666;
-        background-color: #f9f8f6;
-        background-image: url("https://i.imgur.com/px0ic4P.jpg");
-        background-position: center;
-        font-family: Georgia, Times, serif;
-        line-height: 1.4em;
-        margin: 0px;
+        font-family: "IM Fell French Canon", sans-serif;
+        font-size: 30px;
+        background-color: #BAD9D9;
       }
 
-      .wrapper {
-        width: 940px;
-        margin: 20px auto 20px auto;
-        border: 2px solid #000000;
-        background-color: #ffffff;
+      p {
+        background-color: white;
+        font-family: "Mulish", sans-serif;
+        font-size: 22px;
+        padding: 1em 1em 1em 50px;
+        color: #60BFBF;
+        width: 1000px;
       }
 
-      #header {
-        height: 160px;
-        background-image: url("https://i.imgur.com/4rcWA3C.jpg");
-      }
-
-      h1 {
-        text-indent: -9999px;
-        width: 940px;
-        height: 130px;
-        margin: 0px;
-      }
-
-      #footer {
-        clear: both;
-        color: #ffffff;
-        background-color: #aeaca8;
-        height: 30px;
-        font-size: 80%;
-        padding: 7px 0px 0px 20px;
-      }
-
-      .courses {
-        float: left;
-        width: 659px;
-        border-right: 1px solid #eeeeee;
-      }
-
-      .article {
-        clear: both;
-        overflow: auto;
-        width: 100%;
-      }
-
-      .hgroup {
-        margin-top: 40px;
-      }
-
-      figure {
-        float: left;
-        width: 290px;
-        height: 220px;
-        padding: 5px;
-        margin: 20px;
-        border: 1px solid #eeeeee;
-      }
-
-      figcaption {
-        font-size: 90%;
-        text-align: left;
-      }
-
-      #sidebar {
-        width: 230px;
-        float: left;
-        padding: 0px 0px 0px 20px;
-      }
-
-      a {
-        color: #de6581;
-      }
-
-      h1,
-      h2,
-      h3 {
-        font-weight: normal;
+       h1 {
+        font-family: "IM Fell French Canon", sans-serif;
+        margin-top: 25;
+        margin-bottom: 0;
+        text-align: center;
+        text-decoration: none;
+        color: white;
       }
 
       h2 {
-        margin: 10px 0px 5px 0px;
-        padding: 0px;
-      }
-
-      h3 {
-        margin: 0px 0px 10px 0px;
-        color: #de6581;
-      }
-
-      #sidebar h2 {
-        padding: 30px 0px 10px 0px;
-        color: #de6581;
+        font-family: "Mulish", sans-serif;
+        color: white;
+        font-size: 35px;
+        display: inline-block;
+        margin-top: 50;
+        margin-bottom: -25;
       }
 
       #nav ul {
@@ -119,83 +44,43 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #666666;
+        background-color: white;
       }
 
       #nav li {
-        font-family: "Lucida Console", "Courier New", monospace;
+        font-family: "IM Fell French Canon", monospace;
         float: left;
       }
 
       #nav a {
         display: block;
-        padding: 5px 14px;
-        text-decoration: none;
-        color: #de6581;      
+        padding: 3px 20px;
+        color: #60BFBF;
       }
+
       #nav a:hover {
-        background-color: #333;
+        background-color: #DFF2F2;
       }
-      
     </style>
 
   </head>
   <body>
-    <div class="wrapper">
-      <div id="header">
-        <h1>Yoko's Kitchen</h1>
-        <div id="nav">
-          <ul>
-            <li><a href="#0">HOME</a></li>
-            <li><a href="#0">CLASSES</a></li>
-            <li><a href="#0">CATERING</a></li>
-            <li><a href="#0">ABOUT</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="courses">
-        <div class="article">
-          <figure>
-            <img src="https://i.imgur.com/GaC5TSH.jpg" alt="Bok Choi">
-            <figcaption>Bok Choi</figcaption>
-          </figure>
-          <div class="hgroup">
-            <h2>Japanese Vegetarian</h2>
-            <h3>Five week course in London</h3>
-          </div>
-          <p>A five week introduction to traditional Japanese vegetarian meals, tefaching you a selection of rice and noodle dishes.</p>
-        </div>
-        <div class="article">
-          <figure>
-            <img src="https://i.imgur.com/dd27k4P.jpg" alt="Teriyaki sauce">
-            <figcaption>Teriyaki Sauce</figcaption>
-          </figure>
-          <div class="hgroup">
-            <h2>Sauces Masterclass</h2>
-            <h3>One day workshop</h3>
-          </div>
-          <p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.</p>
-        </div>
-      </div>
-      <div id="sidebar">
-        <div class="popular-recipes">
-          <h2>Popular Recipes</h2>
-          Yakitori (grilled chicken)
-          Tsukune (minced chicken patties)
-          Okonomiyaki (savory pancakes)
-          Mizutaki (chicken stew)
-        </div>
-        <div class="contact-details">
-          <h2>Contact</h2>
-          <p>Yoko's Kitchen<br>
-            27 Redchurch Street<br>
-            Shoreditch<br>
-            London E2 7DP</p>
-        </div>
-      </div>
-      <div id="footer">
-        &copy; 2023 Yoko's Kitchen
-      </div>
+    <div id="index">
+      <h1>Welcome To My Website</h1>
     </div>
+    <div id="nav">
+      <ul>
+        <li><a href="https://kkpwu.github.io/index/">home</a></li>
+        <li><a href="https://kkpwu.github.io/gbda-228-excerise-2/">interests</a></li>
+        <li><a href="portfolio.html">protfolio</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+    <h2>my interests</h2>
+    <ul>
+    </ul>
+    <p></p>
+    <br>
+    
   </body>
 </html>
